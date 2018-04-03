@@ -16,6 +16,9 @@ public class User implements Serializable{
     //地址
     private String address;
 
+    public User() {
+    }
+
     public User(String id, String name, String eMial, String address) {
         this.id = id;
         this.name = name;
